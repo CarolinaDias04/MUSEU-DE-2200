@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu do Futuro - Air Fryer</title>
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+      
+    body{
+        margin:0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffd8d8;
+        colo: rgb(5, 5, 5);
+    }
+
+    header{
+        background-color: #1b1b1b;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    header p{
+        color: #c9b471;
+    }
+
+    nav{
+        background-color: #333;
+        text-align: center;
+        padding: 15px;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    nav a :hover{
+        color:#e0c875;
+    }
+
+    main{
+        max-width: 1000px;
+        margin: auto;
+        padding: 30px 20px;
+    }
+
+    section{
+        background-color: white;
+        margin-bottom: 25px;
+        padding: 25px;
+        border-radius: 10px
+    }
+
+    h2{
+        border-bottom: 2px solid #c9b471;
+    }
+
+    .destaque{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .destaque img{
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .codigo{
+        color:#777;
+        font-size: 14px;
+    }
+
+    .etiqueta{
+        display:inline-block;
+        background-color: #c9b471;
+        padding: 8px 12px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .hipotese{
+        display: flex;
+        gap: 15px;
+    }
+
+    article{
+        flex: 1;
+        background-color: azure;
+        padding: 18px;
+        border-radius: 8px;
+    }
+
+    aside{
+        background-color: #272727;
+        color: white;
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    blockquote{
+        border-left: 4px solid #c9b471;
+        margin-left: 0;
+        padding: 20px;
+        font-style: italic;
+    }
+
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,td{
+        border: 1px solid #cccccc;
+        text-align: left;
+    }
+
+    th{
+        background-color: #333;
+        color: white;
+        text-align: center;
+    }
+
+    .alert{
+        background-color: #fff1d6;
+    }
+
+    footer{
+        background-color: #1b1b1b;
+        color: white;
+        text-align: center;
+        padding: 30px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 700px){
+        .destaque, .hipoteses{
+            flex-direction: column;
+        }
+        .destaque img{
+            width: 100px;
+        }
+        nav a{
+            display: block;
+        }
+        table{
+            font-size: 13px;
+        }
+    }
+    
+</style>
+</head>
+<body>
+    <header>
+        <p>MUSEU DE ARQUEOLOGIA DIGITAL</p>
+
+        <H1>Arquivo Histórico - 2200</H1>
+
+        <p>
+            Reconstruíndo os misteriosos costumes
+            da humanidade do Século XXI
+        </p>
+    </header>
+
+    <nav>
+        <a href="#artefato">Artefato</a>
+        <a href="#descoberta">Decobertas</a>
+        <a href="#hipoteses">Hipóteses</a>
+        <a href="#evidências">Evidências</a>
+        <a href="#arqueologo">Arqueólogo</a>
+    </nav>
+
+    <main>
+        <section id="artefato">
+        <img src="https://philco.vtexassets.com/arquivos/ids/282206/BBPE02A_30.jpg?v=639126481873600000" alt="Uma foto de uma batedeira planetária rosa" width="300">
+           <article>
+            <p>ARTEFATO  id="BT-2026-031"</p>
+
+            <H2>Batedeira Planetária</H2>
+
+            <p class="etiqueta">
+                Importância cultural: 10/10
+            </p>
+
+            <p>
+               Artefato doméstico utilizado pela civilização 
+               brasileira do início do século XX
+            </p>
+
+            <p>
+                Alguns regitros mostram que este artefato, veio 
+                para trazer uma facilidade para mexer massas e váriaveis tipos de cremas de: 
+                <ol>
+                    <li>Pães</li>
+                    <li>Tortas</li>
+                    <li>Bolos</li>
+                    <li>Doces</li>
+                </ol>
+            </p>
+
+            <blockquote>"Batedeira Planetária aquela que facilita o seu mexer!"</blockquote>
+            
+           </article>
+        </section>
+
+        <section id="descoberta">
+            <h2>Local de descoberta</h2>
+
+            <p> O artefato foi encontrado no dia 14 de fevereiro de 2190, 
+                durante uma investigação na casa da atriz brasileira super coonhecida Madelyn Cline.
+                </p>
+
+                <p>
+                    <strong>Local hístorico:</strong>
+                    São Bernado do campo, antigo município do estado de São Paulo, Brasil.
+                </p>
+
+                <p>O aparelho ele estava guardado dentro de algo com , 
+                parecido com uma espécie de papelão de embalagem rosa que era conhecido como:
+             <strong>"caixa de papelão"</strong>
+                </p>
+
+                <h3>Alguns objetos que foram encontrados</h3>
+                <ul>
+                    <li>Uma fuet</li>
+                    <li>Uma lata de leite moça</li>
+                    <li>Uma embalagem de chocolate em pó de uma marca conhecida como Apti</li>
+                    <li>Uma espátula</li>
+                    <li>Um bilhete com frase significante</li>
+                </ul>
+
+                <blockquote>"As vezes tudo o que precisamos é de um doce para alegrar a nossa vida"</blockquote>
+
+                <p>
+                    Até hoje os arqueólogos vejam essa frase como algo que trazia conforto
+                    para as pessoas da antiga civilização.
+                </p>
+                <section>
+                    <h2>Descrisão Física</h2>
+
+                    <p> O objeto apresenta um formato de trapézio em sua base, no seu corpo tem um formato de um cilindro, já no seu cabeçote tem um formato
+                        de Elipsoide, sua tigele tem um formato de tronco de cone, e seus batedores tem formatos de esfera, triângulo, espiral e
+                        semicirculos.
+                    </p>
+                    <p>
+                        <strong>Altura:</strong> aproximadamente de 35 cm  a 45 cm<br>
+                        <strong>Peso: </strong> aproximadamente de 4 kg a 6kg <br>
+                        <strong>Material: </strong> plástico, metal e aluminio <br>
+                        <strong>Fonte energética: </strong> Energia elétrica <br>
+                    </p>
+
+                    <p> Durante alguns anos acreditou-se que a gaveta servia para armazenar 
+                        objetos pessoais.
+                    </p>
+
+                    <p>
+                        Essa teoria foi abandonada após pesquisadores encontrarem resíduos
+                        fossilizados de batata.
+                    </p>
+                
+
+                <section>
+                   <h2>Função provável</h2>
+
+                   <p>
+                    Simulações indicam que a Air Fryer utilizava circulação de ar 
+                    extremamente quente para preparar alimentos.
+                   </p>
+
+                   <blockquote>"Depois da Air Fryer nunca mais usei forno"</blockquote>
+
+                   <blockquote>"Tudo vai na Air Fryer"</blockquote>
+
+                   <p>
+                    A expressão "Tudo na Air Fryer ." gerou décadas de discussão entre 
+                    historiadores.
+                   </p>
+                </section>
+
+                <section id="hipoteses">
+                   <h2>Principais hipóteses arqueológicas</h2>
+
+                   <div class="hipoteses">
+                       <article>
+                        <h3>Hipótese A</h3>
+
+                        <p>
+                            <strong>Utensílio culinário</strong>
+                        </p>
+
+                        <p>
+                            A teoria mais aceita afirma que o objeto era utilizado apenas para preparal alimnetos 
+                            rapidamente.
+                        </p>
+                       </article>
+
+                       <article>
+                        <h3>Hipótese B</h3>
+
+                        <p>
+                            <strong>Símbolo de status</strong>
+                        </p>
+
+                        <p>
+                            Alguns pesquisadores acreditam que possuir uma Air Fryer demonstrava propriedade doméstica.
+                        </p>
+                       </article>
+
+                       <article>
+                        <h3>Hipótes C</h3>
+                         <p>Fonte de energia</p>
+
+                         <p>
+                            Essa teoria afirma que como ele transforma ar e girava produzindo
+                            calor, podria ser uma usina termo-elétrica em miniatura.
+                         </p>
+                       </article>
+
+                       <article>
+                        <h3>Hipótes D</h3>
+
+                        <p>Objeto Ritualístico</p>
+
+                        <p>
+                            Essa teoria afirma que famílias realizavam pequenos rituais envolvendo batatas, frango e queijo.
+                        </p>
+                       </article>
+                   </div>
+                </section>
+
+                <section>
+                    <h2>Reconstrução do ritual</h2>
+
+                    <ol>
+                        <li>Inserir alguns alimentos na gaveta</li>
+                        <li>Selecionar aproximadamente <strong>200 graus</strong></li>
+                        <li>Escolher aproximadamente <strong>15 minutos</strong></li>
+                        <li>Abrir o aparelho antes do término.</li>
+                        <li>Observar o alimento cuidadosamente</li>
+                        <li>Declarar <strong>"Ainda falta um pouco."</strong></li>
+                        <li>Adicionar cinco minutos</li>
+                        <li>Tirar o alimento da gaveta</li>
+                    </ol>
+                </section>
+
+                <section id="evidências">
+                    <h2>Evidências Linguísticas</h2>
+
+                    <p>
+                        A interpretação da linguagem brasileira século XXI foi uma das maiores dificuldades 
+                        da insvestigação.
+                    </p>
+
+                    <table>
+                        <tr>
+                          <th>Expressão encontrada</th>
+                          <th>Interpretação em 2200</th>
+                        </tr>
+
+                        <tr>
+                            <td>Air Frter é vida</td>
+                            <td>Possível crença religiosa</td>
+                        </tr>
+
+                        <tr>
+                            <td>Ficou top</td>
+                            <td>Significado ainda desconhecido</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Confia</td>
+                            <td>Provável indicação de perigo</td>
+                        </tr>
+
+                        <tr>
+                            <td>Só vai</td>
+                            <td>Instrução sem detalhes suficientes</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bom demais</td>
+                            <td>Avaliação extremamente positiva</td>
+                        </tr>
+
+                        <tr>
+                            <td>5 minutos</td>
+                            <td>Unidade de tempo altamente varíavel</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section>
+                    <h2>Fragmentação digitais recuperados</h2>
+
+                    <p>
+                        Diversos vídeos foram recuperados de uma antiga plataforma chamada <strong>YouTube</strong>
+                    </p>
+
+                    <p>
+                        Muitos começavam com a frases sememlhantes:
+                    </p>
+
+                    <blockquote>
+                        "Você não vai acreditar no que dá pra fazer na Air Fryer."
+                    </blockquote>
+
+                    <p>
+                        Curiosamente, os vídeos normalmente mostravam alimentos bastantes previsíveis.
+                    </p>
+
+                    <p>
+                        Isso levou alguns pesquisadores a considerar que os habitantes de 2026 possuíam padrões de supresas
+                        muito diferentes dos atuais.
+                    </p>
+                </section>
+
+                <aside id="arqueologo">
+                   <h2>Comentários do Arqueólogo</h2>
+
+                   <h3> Dr. JJ Rotgle Cameron </h3>
+
+                   <p>
+                    Instituto de Arqueologia Doméstica - 2200
+                   </p>
+
+                   <blockquote>
+                      Durante muito tempo acreditamos que a expressão "é vida" fosse utilizada apenas de maneira
+                      figurativa.
+                   </blockquote>
+
+                   <blockquote>
+                      Entretanto, encontramos referências semelhantes envolvendo café, pizza, sexta-feira,
+                      férias, Wi-fi e Air Fryer.
+                   </blockquote>
+
+                   <blockquote>
+                    É improvável que todos estes elementos fossem simultaneamente responsáveis pela existência humana.
+                   </blockquote>
+
+                   <p>
+                    Atualmente trabalhos com a hipótes de que os humanos de 2026 utilizavam a palavra "vida" com uma 
+                    liberdade semântica extraordinária.
+                   </p>
+                </aside>
+
+                <section>
+                    <h2>Teorias rejeitadas</h2>
+
+                    <h3>Secador de roupas</h3>
+
+                    <p>
+                        Durante algum tempo acreditou-se que a cesta(gaveta), poderia ser utilizada para secar pequenas
+                        peças de roupa.
+                    </p>
+
+                    <p>
+                        A hipotese foi abandonada depois de experimentos classificados com <strong>"Lamentáveis"</strong>
+                    </p>
+
+                   <p>
+                    Outro grupo defendeu que a cesta era utilizada para guardar controles remotos.
+                   </p>
+
+                   <p>
+                    A teoria continua tecnicamnete possível, embora não existem evidências.
+                   </p>
+                </section>
+
+                <section>
+                    <h2>Objeto associado: Ketchup</h2>
+
+                    <p>
+                        Pròximo a Air Fryer foi encontrado um recipiente contendo 
+                        resíuduos de uma substâncias vermelha.
+                    </p>
+
+                    <p>
+                        Posteriormente ela foi identificada como <strong>Ketchup</strong>
+                    </p>
+
+                    <p>
+                        Alguns pesquisadores defendem que o Ketchup era utilizado para melhorar alimentos que não 
+                        haviam ficado suficientimente bons.
+                    </p>
+
+                    <p>
+                        Fabricantes de Ketchup do Século XXI 
+                        contestam esta interpretação.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Perguntas ainda sem respostas</h2>
+
+                    <ul>
+                        <li>Por que os humanos fotografam alimentos sntes de comê-los?</li>
+                        <li>Por que algumas residências possuíam suas Air Fryer?</li>
+                        <li>Por que praticamente tudo era preparado a 200 graus</li>
+                        <li>Por que era necessário declarar que uma receita era "fit"?</li>
+                        <li>O que significa exatamente "fica igualzinho ao de restaurante"?</li>
+                    </ul>
+                </section>
+
+                <section class="alerta">
+                     <h2>Nota da segurança do museu</h2>
+
+                     <p>
+                        Visitantes não devem tentar reproduzir técnicas culinárias do século XXI utilizando
+                        equipamentos arqueológicos originais.
+                     </p>
+
+                     <p>
+                        O incidente envolvendo o pesquisador Almeida,
+                        e um pão de queijo congelado ainda está sob investigação.
+                     </p>
+                </section>
+
+                <section>
+                    <h2>Classificação Final</h2>
+
+                    <p>Nome conhecido: <strong>Air Fryer</strong></p>
+
+                    <p>Nome arqueológico: <strong>Câmera doméstica de convecção térmica</strong></p>
+
+                    <p><Strong>Civilização: </Strong>
+                    Sociedade Digital Pré-Singularidade
+                    </p>
+
+                    <p><Strong>Período: </Strong>
+                        aproximadamente 2015-2035
+                    </p>
+
+                    <p><strong> Uso Confirmado:</strong>
+                        preparação de alimentos
+                    </p>
+
+                    <p><strong>Uso simbólico:</strong>
+                         provavelmente elevadp
+                    </p>
+
+                    <p><strong>Nível atual de compreensão:</strong>
+                       71% 
+                    </p>
+                </section>
+            </main>
+            <Footer>
+                Museu de Arqueologia de 2200
+            </Footer>
+</body>
+</html>
